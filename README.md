@@ -1,1 +1,4 @@
-VIP
+# Meme Online, What do you meme?
+
+#### Description:
+The ["Meme Online" project](https://cs50pfinal-what-do-you-meme.streamlit.app/) is a web application built using Streamlit, a popular Python library for creating web applications. The aim of the project is to provide users with a platform where they can generate memes online by adding captions to random meme templates fetched from a JSON file download from [meme source](https://api.memegen.link/templates). The application allows users to submit their captions, which are then overlaid onto the selected meme template, and finally, users can download meme. The Pillow library, a Python Imaging Library (PIL), is used for image processing tasks such as inserting user captions onto meme templates and exporting the customized memes.
