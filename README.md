@@ -27,7 +27,7 @@ The ["Meme Online" project](https://cs50pfinal-what-do-you-meme.streamlit.app/) 
 
         Footer: Credits the creator of the application.
 
-    2. **meme.py**: This file defines the Meme class responsible for fetching meme templates from an external API and processing them. Here's an explanation of its functionalities:
+2. **meme.py**: This file defines the Meme class responsible for fetching meme templates from an external API and processing them. Here's an explanation of its functionalities:
 
         Random Meme Selection: Selects a random meme template from a JSON file containing meme data fetched from an external API.
 
@@ -35,4 +35,4 @@ The ["Meme Online" project](https://cs50pfinal-what-do-you-meme.streamlit.app/) 
 
         Export Meme: Saves the meme with caption text.
 
-    3. **memes.json**: This JSON file contains data fetched from the external API and serves as a local cache of meme templates. Each entry in the JSON file represents a meme template, including its URL and other relevant information.
+3. **memes.json**: This JSON file contains data fetched from the external API and serves as a local cache of meme templates. Each entry in the JSON file represents a meme template, including its URL and other relevant information.
